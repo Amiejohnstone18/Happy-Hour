@@ -1,0 +1,23 @@
+header{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-fluid {
+    background: linear-gradient(to right, #ff6666 0%, #ffff8f 100%);
+}
+
+.logo-row {
+    text-align: center;
+}
+
+.logo {
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
