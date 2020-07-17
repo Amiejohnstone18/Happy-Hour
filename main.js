@@ -15,3 +15,4 @@ xhr.open("GET", "https://api-cocktails.herokuapp.com/api/v1/cocktails");
 xhr.setRequestHeader('Authorization', 'Token token=QtxcH4qt0pxEdy3loSTzVQtt');
 
 xhr.send(data);
+
