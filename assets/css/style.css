@@ -85,6 +85,12 @@ font-size: 37px;
     font-size: 30px;
 }
 
+button{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
 /* Got a Question */
 #got-a-question {
     font-family: 'Pacifico', cursive;
