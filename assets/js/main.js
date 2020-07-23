@@ -1,23 +1,3 @@
-// var data = null;
-
-// var xhr = new XMLHttpRequest();
-// xhr.withCredentials = true;
-
-// xhr.addEventListener("readystatechange", function () {
-// 	if (this.readyState === this.DONE) {
-//         console.log(this.responseText);
-//          document.getElementById("data").innerHTML = this.responseText;
-// 	}
-// });
-
-// xhr.open("GET", "https://api-cocktails.herokuapp.com/api/v1/cocktails");
-// xhr.setRequestHeader('Authorization', 'Token token=QtxcH4qt0pxEdy3loSTzVQtt');
-
-// xhr.send(data);
-
-
-
-// NEW 
 
  var gData = [];
 
@@ -29,8 +9,9 @@
     let drink = gData.filter(cocktail => {
         return cocktail.id === id
     })
-
-   console.log(drink)
+console.log(drink);
+   document.getElementById("long-island-iced-tea").innerHTML = "<h1>" + drink[0].name + "</h1>"
++ "<p>" + drink[0].description + "</p>";
  }
 
  let headers = {
@@ -48,20 +29,4 @@
  })
 
 
-
-
-// NEW 
-
-//function changeButton(element, endpoint) {
-//    xHttp = new XMLHttpRequest();
-//    xHttp.onreadystatechange = function () {
-//        if (this.readyState == 4 && this.status == 200) {
-//            document.getElementById(element).innerHTML = this.responseText;
-//            document.getElementById(element).style = "font-size;100%";
-//        }
-//    }
-//    xHttp.open("GET", "https://api-cocktails.herokuapp.com/api/v1/cocktails" + endpoint + "&per_page=1", true);
-//    xHttp.setRequestHeader('Authorization', 'Token token=QtxcH4qt0pxEdy3loSTzVQtt');
-//    xHttp.send();
-// }
 
