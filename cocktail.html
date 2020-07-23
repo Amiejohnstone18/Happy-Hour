@@ -30,33 +30,39 @@
 
 <h1>Select a cocktail</h1>
 
+<!--   <button id="longIsland" onclick="changeButton('longIsland', '?name=Long Island Iced Tea')">Long Island Iced Tea</button>
+    <button id="alabamaSlammer" onclick="changeButton('alabamaSlammer', '?name=Alabama Slammer')">Alabama Slammer</button>
+    <button id="alexander" onclick="changeButton('alexander', '?name=Alexander')">Alexander</button>
+    <button id="americano" onclick="changeButton('americano', '?name=Americano')">Americano</button>
+    <button id="angelFace" onclick="changeButton('angelFace', '?name=Angel Face')">Angel Face</button> -->
 
 <!-- Cocktail Data -->
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=longIslandIcedTea&per_page=1')">Long Island Iced Tea</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=alabamaSlammer&per_page=2')">Alabama Slammer</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=alexander&per_page=3)">Alexander</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=americano&per_page=4')">Americano</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=angelFace&per_page=5')">Angel Face</button>
+<div id="data"></div> 
+    <!-- <button onclick="writeToDocument( 'https://api-cocktails.herokuapp.com/api/v1/cocktails?name=longIslandIcedTea&per_page=1' )">Long Island Iced Tea</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=alabamaSlammer&per_page=1' )">Alabama Slammer</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=alexander&per_page=1' )">Alexander</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=americano&per_page=1' )">Americano</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=angelFace&per_page=1' )">Angel Face</button>
     <br>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=aperolSpritz&per_page=6')">Aperol Spritz</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=aguaLoca&per_page=7')">Agua Loca</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=aviation&per_page=8')">Aviation</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=dueAndTrios&per_page=9')">Duo and Trio's</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=babyGuinness&per_page=10')">Baby Guinness</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=aperolSpritz&per_page=1' )">Aperol Spritz</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=aguaLoca&per_page=1' )">Agua Loca</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=aviation&per_page=1' )">Aviation</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=dueAndTrios&per_page=1' )">Duo and Trio's</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=babyGuinness&per_page=1' )">Baby Guinness</button>
     <br>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=bacardi&per_page=11')">Bacardi</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=backdraft&per_page=12')">Backdraft</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=b-52&per_page=13')">B-52</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=babyBreeze&per_page=14')">Baby Breeze</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=beesKnees&per_page=15')">Bee's Knee's</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=bacardi&per_page=1' )">Bacardi</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=backdraft&per_page=1' )">Backdraft</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=b-52&per_page=1' )">B-52</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=babyBreeze&per_page=1' )">Baby Breeze</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=beesKnees&per_page=1' )">Bee's Knee's</button>
     <br>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=bellini&per_page=16')">Bellini</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=betweenTheSheets&per_page=17')">Between the Sheets</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=blackAndTan&per_page=18')">Black and Tan</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=blackNail&per_page=19')">Black Nail</button>
-    <button onclick="writeToDocument('https://api-cocktails.herokuapp.com/api/v1/cocktails?name=blackRussian&per_page=20')">Black Russian</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=bellini&per_page=1' )">Bellini</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=betweenTheSheets&per_page=1' )">Between the Sheets</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=blackAndTan&per_page=1' )">Black and Tan</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=blackNail&per_page=1' )">Black Nail</button>
+    <button onclick="writeToDocument(' https://api-cocktails.herokuapp.com/api/v1/cocktails?name=blackRussian&per_page=1' )">Black Russian</button> -->
 
-    <div id="data"></div>
+
 
 
 <!-- Footer -->
