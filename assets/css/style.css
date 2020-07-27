@@ -55,21 +55,7 @@ height: 160px;
     color: black;
 }
 
-/* Find your drink */
-#button {
-    background: white;
-    border: 1px solid #ff6666;
-    color: black;
-    font-family: 'Pacifico', cursive;
-    font-size: 35px;
-    position: relative;
-    left: 25%;
-}
-
-#button:hover {
-font-size: 37px;
-border: 1px solid #ff6666;
-}
+/* Home Page */
 
 #find-your-drink {
     font-family: 'Pacifico', cursive;
@@ -78,29 +64,68 @@ border: 1px solid #ff6666;
     font-size: 30px;
 }
 
-/* Got a Question */
-#got-a-question {
+#select-link {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    background: #ff6666;
+    color: white;
+    position: relative;
+    left: 40%;
+    border: #ff6666;
+}
+
+#select-link:hover {
+    font-size: 32px;
+   
+}
+
+.titles {
     font-family: 'Pacifico', cursive;
     color: black;
     text-align: center;
 }
 
 
-/* Selection */
+.center-form {
+    font-family: 'Pacifico', cursive;
+}
 
+/* Background */
+.background {
+    background-color: #ffe6e9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Cocktail Page */
+
+#cocktail-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/* Drinks */
 h1{
     font-family:  'Pacifico', cursive;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
+p {
+    font-size: 20px;
+}
+
+/* Cocktail Buttons */
 button{
     height: 50px;
     width: 260px;
-    margin: 10px;
-    color:#ff6666;
-    background-color: white;
-    border: 2px solid #ff6666;
+    margin: 12px;
+    color:black;
+    background-color: #ffe6e9;
+    border: 2px solid white;
     font-family: 'Pacifico', cursive;
     font-size: 28px;
     text-align: center;
@@ -111,6 +136,10 @@ button:hover{
     color: white;
     border: 2px solid #ff6666;
 
+}
+
+button::selection {
+    border-color: 2px solid #ff6666;
 }
 
 

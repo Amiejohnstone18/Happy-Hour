@@ -11,7 +11,7 @@
     })
 console.log(drink);
    document.getElementById("long-island-iced-tea").innerHTML = "<h1>" + drink[0].name + "</h1>"
-+ "<p>" + drink[0].description + "</p>";
++ "<p>" + drink[0].description + "</p>" + drink[0].image_thumb_url;
  }
 
  let headers = {

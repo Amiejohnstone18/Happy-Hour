@@ -74,17 +74,18 @@
 
 
 
-<!-- Email Contact -->
-    <div class="container">
+<!-- Grid -->
+<div class="container">
   <div class="row">
     <div class="col-sm">
-      <a class="btn btn-primary" id="button" href="cocktail.html" role="button">Find Your Perfect Cocktail</a>
-                    <p id="find-your-drink" >Make your favourite cocktail from the comfort of your own home! Happy Hour will provide you with all you need to make your desired cocktail</p>
-				</div>
+      <h1 class="titles">Find Your Perfect Cocktail</h1>
+            <p id="find-your-drink" >Make your favourite cocktail from the comfort of your own home! Happy Hour will provide you with a list of 20 cocktails to chose from, along with a description for each so you can make a decision on which cocktail to make!</p>
+                <a class="btn btn-primary" id="select-link" href="cocktail.html" role="button">Cocktails</a>
+        
     </div>
     <div class="col-sm">
-    <form onsubmit="return sendMail(this);">  
-      <h1 id="got-a-question">Got A Question?</h1>
+      <form onsubmit="return sendMail(this);">  
+      <h1 class="titles">Got A Question?</h1>
                     <div class="center-form">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <br>
@@ -96,6 +97,9 @@
     </form>
     </div>
   </div>
+</div>
+
+
 
 
     <!-- Footer -->
