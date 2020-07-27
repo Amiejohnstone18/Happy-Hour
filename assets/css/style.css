@@ -37,6 +37,24 @@ height: 160px;
     height: 700%;
 }
 
+/* Nav */
+#nav-fill {
+    background: linear-gradient(to right, #ff6666 0%, #ffff8f 100%);
+    border-bottom: 1px solid white;
+	position: relative;
+	z-index: 1;
+}
+
+.nav-link {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
 /* Find your drink */
 #button {
     background: white;
