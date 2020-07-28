@@ -7,11 +7,11 @@
  }
  function myFunction(id) {
     let drink = gData.filter(cocktail => {
-        return cocktail.id === id
+        return cocktail.id === id;
     })
 console.log(drink);
    document.getElementById("long-island-iced-tea").innerHTML = "<h1>" + drink[0].name + "</h1>"
-+ "<p>" + drink[0].description + "</p>" + drink[0].image_thumb_url;
+    + "<p>" + drink[0].description + "</p>" + "<br />" + `<img src="${drink[0].image_thumb_url}" />` ;
  }
 
  let headers = {
@@ -20,13 +20,15 @@ console.log(drink);
  let response = fetch("https://api-cocktails.herokuapp.com/api/v1/cocktails", {headers:headers})
  .then(data => data.json()).then(data => {
     setData(data)
-    let element = document.querySelector('#data')
-    let buttonArray = []
+    console.log(data)
+    let element = document.querySelector('#data');
+    let buttonArray = [];
     data.forEach(item => {
-        buttonArray.push(`<button onClick=myFunction(${item.id})>${item.name})</button>`)
-        element.innerHTML = buttonArray.join('') 
+        buttonArray.push(`<button onClick=myFunction(${item.id})>${item.name})</button>`);
+        element.innerHTML = buttonArray.join('');
+
     })
  })
 
 
-
+//<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Long_Island_Iced_Teas.jpg/200px-Long_Island_Iced_Teas.jpg"
