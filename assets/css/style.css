@@ -23,6 +23,13 @@
   height: 160px;
 }
 
+@media screen and (max-width: 414px) {
+ .logo {
+     width: 50%;
+   height: auto;
+ }
+}
+
 /* Hero */
 
 .container {
