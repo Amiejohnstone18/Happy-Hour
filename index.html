@@ -72,35 +72,66 @@
       <img src="assets/images/home-hero.png" class="hero" alt="Hero-Shot" />
     </div>
 
-
-
-<!-- Grid -->
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <h1 class="titles">Find Your Perfect Cocktail</h1>
-            <p id="find-your-drink" >Make your favourite cocktail from the comfort of your own home! Happy Hour will provide you with a list of 20 cocktails to chose from, along with a description for each so you can make a decision on which cocktail to make!</p>
-                <a class="btn btn-primary" id="select-link" href="cocktail.html" role="button">Cocktails</a>
-        
+<br>
+    <!-- Grid -->
+    <div class="container" style="text-align: center;">
+      <div class="row">
+        <div class="col-sm">
+          <a id="select-link" href="cocktail.html" role="button"
+            >Find Your Perfect Cocktail</a
+          >
+          <br>
+          <br>
+          <p id="find-your-drink">
+            Make your favourite cocktail from the comfort of your own home!
+            Happy Hour will provide you with a list of 20 cocktails to chose
+            from, along with a description for each so you can make a decision
+            on which cocktail to make!
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm">
-      <form onsubmit="return sendMail(this);">  
-      <h1 class="titles">Got A Question?</h1>
-                    <div class="center-form">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <br>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <br>
-                    <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Submit</button>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <form onsubmit="return sendMail(this);">
+            <h1 class="titles">Got A Question?</h1>
+            <div class="center-form">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="fullname"
+                placeholder="Name"
+                required
+              />
+              <br>
+              <input
+                type="text"
+                name="emailaddress"
+                class="form-control"
+                id="emailaddress"
+                placeholder="Email"
+                required
+              />
+              <br>
+              <textarea
+                rows="5"
+                name="message"
+                class="form-control"
+                id="message"
+                placeholder="Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-secondary center-block">
+                Submit
+              </button>
             </div>
-    </form>
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-
-
 
     <!-- Footer -->
     <footer class="footer">
