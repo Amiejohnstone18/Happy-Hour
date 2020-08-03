@@ -11,8 +11,10 @@
     })
 console.log(drink);
    document.getElementById("long-island-iced-tea").innerHTML = "<h1>" + drink[0].name + "</h1>"
-    + "<p>" + drink[0].description + "</p>" + "<br />" + `<img src="${drink[0].image_thumb_url}" />` ;
- }
+    + "<p>" + drink[0].description + "</p>" ;
+document.getElementById("image_thumb_url").innerHTML = `<img src="${drink[0].image_thumb_url}" />` ;
+}
+
 
  let headers = {
     'Authorization': 'Token token=QtxcH4qt0pxEdy3loSTzVQtt'
@@ -29,3 +31,6 @@ console.log(drink);
 
     })
  })
+
+
+ // + "<br />" + `<img src="${drink[0].image_thumb_url}" />`

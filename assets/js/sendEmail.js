@@ -1,3 +1,5 @@
+// Followed code from Code Institutes EmailJS lesson 08/07/2020
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "happy_hour", {
         "from_name": contactForm.name.value, 
