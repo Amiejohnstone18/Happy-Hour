@@ -115,7 +115,9 @@ Through testing whether [Happy Hour](https://amiejohnstone18.github.io/Happy-Hou
 
 An issue that I had come across rather late in my website development process was that my [Cocktail API](https://www.programmableweb.com/api/cocktails-rest-api-v1) had run out of capability serving free requests under the free tier for [Heroku](https://en.wikipedia.org/wiki/Heroku). Upon contacting the API owner, he had replied that the server will be automatically spun out within two days. This, of course, put a pause on the website development and caused a timing issue. Now knowing this information and taking it into consideration, for future potential development on this project I would require a higher tier paid [Cocktail API](https://www.programmableweb.com/api/cocktails-rest-api-v1) key for the data to ensure there would be no server timing issues or delays.
 
+A second issue I faced was trying to resize the [API Cocktail](https://www.programmableweb.com/api/cocktails-rest-api-v1) images to upscale in proportion. Due to the fact that they were all difference sizes originally, I was unable to indiviudally size them as one height/ width size did not suit all. 
 
+I had created a [response testing](response_testing/Happy_Hour_Testing.pdf) document that shows results from code validations, device responsiveness and browser capability.
 # Deployment
 
 I deployed my project through [GitHub Pages](https://pages.github.com/). The deployment process was as follows:
