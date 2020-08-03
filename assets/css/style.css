@@ -130,13 +130,14 @@ p {
 }
 
 #image_thumb_url {
-  text-align: center;
-  margin-top: 20px;
-  padding: 20px;
+  margin: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Cocktail Buttons */
-
 
 button {
   height: 50px;
@@ -157,10 +158,9 @@ button:hover {
 }
 
 button:focus {
-    background-color: #ff6666;
+  background-color: #ff6666;
   color: white;
- outline-color: #ff6666;
-
+  outline-color: #ff6666;
 }
 
 /* Footer */
