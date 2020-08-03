@@ -24,17 +24,16 @@
 }
 
 @media screen and (max-width: 414px) {
- .logo {
-     width: 50%;
-   height: auto;
- }
+  .logo {
+    width: 50%;
+    height: auto;
+  }
 
-button {
-  height: 50px;
-  width: 300px;
-  margin: 12px;
-}
-
+  button {
+    height: 50px;
+    width: 300px;
+    margin: 12px;
+  }
 }
 
 /* Hero */
@@ -127,17 +126,16 @@ h1 {
 
 p {
   font-size: 25px;
-  font-family: 'Dancing Script', cursive;
-} 
-
-
-
-/* Cocktail Buttons */
+  font-family: "Dancing Script", cursive;
+}
 
 #image_thumb_url {
-text-align: center;
-margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
 }
+
+/* Cocktail Buttons */
 
 
 button {
@@ -156,6 +154,13 @@ button:hover {
   background-color: #ff6666;
   color: white;
   border: 2px solid #ff6666;
+}
+
+button:focus {
+    background-color: #ff6666;
+  color: white;
+ outline-color: #ff6666;
+
 }
 
 /* Footer */
