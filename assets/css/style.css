@@ -1,6 +1,10 @@
 /* Header */
 .container-fluid {
-  background: linear-gradient(to right, #ff6666 0%, #ffff8f 100%);
+  background: linear-gradient(
+    to right,
+    #ff6666 0%,
+    #ffff8f 100%
+  ); /* Code from W3schools.com Color Gradient example */
   height: 150px;
 }
 
@@ -21,19 +25,6 @@
 .logo:hover {
   width: 22%;
   height: 160px;
-}
-
-@media screen and (max-width: 414px) {
-  .logo {
-    width: 50%;
-    height: auto;
-  }
-
-  button {
-    height: 50px;
-    width: 300px;
-    margin: 12px;
-  }
 }
 
 /* Hero */
@@ -131,10 +122,7 @@ p {
 
 #image_thumb_url {
   margin: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* Cocktail Buttons */
@@ -190,4 +178,18 @@ button:focus {
   font-family: "Pacifico", cursive;
   color: white;
   font-size: 18px;
+}
+
+/* Media Devices */
+
+@media screen and (max-width: 414px) {
+  .logo {
+    width: 50%;
+    height: auto;
+  }
+
+  button {
+    width: 350px;
+  }
+
 }
