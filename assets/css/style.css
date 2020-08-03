@@ -133,6 +133,13 @@ p {
 
 
 /* Cocktail Buttons */
+
+#image_thumb_url {
+text-align: center;
+margin-top: 20px;
+}
+
+
 button {
   height: 50px;
   width: 260px;
