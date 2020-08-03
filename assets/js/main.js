@@ -29,6 +29,3 @@ console.log(drink);
 
     })
  })
-
-
-//<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Long_Island_Iced_Teas.jpg/200px-Long_Island_Iced_Teas.jpg"

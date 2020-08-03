@@ -28,6 +28,18 @@
      width: 50%;
    height: auto;
  }
+button {
+  height: 50px;
+  width: 300px;
+  margin: 12px;
+  color: black;
+  background-color: #ffe6e9;
+  border: 2px solid white;
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  text-align: center;
+}
+
 }
 
 /* Hero */
@@ -119,8 +131,11 @@ h1 {
 }
 
 p {
-  font-size: 20px;
-}
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+} 
+
+
 
 /* Cocktail Buttons */
 button {
