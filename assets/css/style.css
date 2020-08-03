@@ -126,10 +126,13 @@ p {
 }
 
 /* Cocktail Buttons */
+div #data {
+    text-align: center;
+}
 
 button {
   height: 50px;
-  width: 260px;
+  width: 300px;
   margin: 12px;
   color: black;
   background-color: #ffe6e9;
@@ -137,7 +140,7 @@ button {
   font-family: "Pacifico", cursive;
   font-size: 28px;
   text-align: center;
-}
+} 
 
 button:hover {
   background-color: #ff6666;
