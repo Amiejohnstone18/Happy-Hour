@@ -127,7 +127,7 @@ p {
 
 /* Cocktail Buttons */
 div #data {
-    text-align: center;
+  text-align: center;
 }
 
 button {
@@ -140,7 +140,7 @@ button {
   font-family: "Pacifico", cursive;
   font-size: 28px;
   text-align: center;
-} 
+}
 
 button:hover {
   background-color: #ff6666;
@@ -190,9 +190,4 @@ button:focus {
     width: 50%;
     height: auto;
   }
-
-  button {
-    width: 350px;
-  }
-
 }
